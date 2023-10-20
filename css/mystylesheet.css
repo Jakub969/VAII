@@ -1,0 +1,11 @@
+.nav-link:hover {
+    color: white;
+    background-color: rgba(43, 45, 48, 0.68);
+}
+.carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    height: 50vh;
+    width: 50vh;
+    overflow: hidden;
+}
