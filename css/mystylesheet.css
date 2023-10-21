@@ -2,10 +2,16 @@
     color: white;
     background-color: rgba(43, 45, 48, 0.68);
 }
-.carousel-item img {
+.carousel-item img{
     object-fit: cover;
     object-position: center;
     height: 50vh;
-    width: 50vh;
+    margin: auto;
     overflow: hidden;
+}
+@media screen and (max-width: 600px) {
+    .carousel-item img {
+        height: 150px;
+        width: 300px;
+    }
 }
