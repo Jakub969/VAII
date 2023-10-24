@@ -11,8 +11,8 @@
 }
 @media screen and (max-width: 600px) {
     .carousel-item img {
-        height: 220px;
-        width: 375px;
+        height: 150px;
+        width: 300px;
     }
 }
 
@@ -34,7 +34,6 @@ body {
 .col-12 img {
     opacity: 0.7;
     cursor: pointer;
-    margin: 2rem;
     width: 100%;
 }
 
@@ -52,5 +51,11 @@ body {
 }
 
 #lightbox .modal-dialog {
-    max-width: 90%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fw-normal {
+    text-align: center;
 }
