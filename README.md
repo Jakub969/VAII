@@ -1,2 +1,0 @@
-# VAII
-Semestrálka na VAII
